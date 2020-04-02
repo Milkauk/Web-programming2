@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vieraskirjan tiedot</title>
+<meta charset='utf-8'>
+<link href="etusivu.css" rel="StyleSheet" type="text/css" media="all" >
+</head>
+<body>
+<h2>Tervetuloa vieraskirjaan!</h2>
+
+<form action='lomake.php' method='post'>
+
+<h2>
+Nimi: <input type='text' name='nimi' value='' size="30" maxlength="30"/><br><br>
+
+Tilaajanumeroni: <input type='text' name='tilaajanumero' value='' size="15" maxlength="15"/><br><br>
+
+Terveiset:<br>
+<textarea name='terveiset' cols='50' rows='5'></textarea><br><br>
+
+<input type='submit' name='ok' value='Lähetä'> 
+<input type='reset' name='eiok' value='Tyhjennä'><br>
+
+</h2>
+</form>
+
+</body>
+</html>
